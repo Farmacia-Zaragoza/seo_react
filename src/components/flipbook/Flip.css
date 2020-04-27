@@ -1,0 +1,26 @@
+.App-pages {
+    height: 480px;
+    width: 90%;
+    perspective: 960px;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    margin: 0 auto;
+}
+
+.App-page {
+    background-color: #eee;
+    color: #333;
+    height: 100%;
+    padding: 25px 20px;
+    border: 3px solid #000;
+    border-radius: 10px;
+}
+
+.App-page p {
+  margin: 0;
+  font-style: italic;
+  padding: 8px 15px;
+  cursor: pointer;
+}

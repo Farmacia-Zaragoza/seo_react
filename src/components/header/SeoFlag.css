@@ -1,0 +1,51 @@
+.seo_desktop {
+    position: relative;
+    display: block;
+    padding: 40px 0px;
+    background: #DCB88C;
+    z-index: 9999999;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .seo_desktop_scroll {
+    position: relative;
+    overflow: auto;
+    height: -moz-calc(95% + 0%);
+    /* height: -webkit-calc(95% + 0%); */
+    height: calc(95% + 0%);
+    margin: 0 auto;
+    background: #DCB88C;
+    height: 300px;
+    text-align: center;
+    z-index: 99999999;
+  }
+  .seo_desktop_scroll::-webkit-scrollbar {
+    display: none;
+  }
+  .header_lang:hover .seo_desktop {
+    opacity: 1;
+    visibility: visible;
+    transition: .5s;
+  }
+  .header_seo:hover .seo_desktop {
+    opacity: 1;
+    visibility: visible;
+    transition: .5s;
+  }
+  .seo_desktop_scroll img {
+    width: 80% !important;
+  }
+  .seo_scroll_down_desk {
+    position: absolute;
+    top: 0;
+    left: 68px;
+    width: 35px;
+    z-index: 999999999;
+  }
+  .seo_scroll_up_desk {
+    position: absolute;
+    bottom: 0;
+    left: 68px;
+    width: 35px;
+    z-index: 999999999;
+  }
